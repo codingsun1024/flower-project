@@ -2,10 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
-const home = () => import('@/views/home.vue')
-const profile = () => import('@/views/profile.vue')
-const car = () => import('@/views/car.vue')
-const category = () => import('@/views/category.vue')
+const home = () => import('@/views/home/home.vue')
+const profile = () => import('@/views//profile/profile.vue')
+const car = () => import('@/views/car/car.vue')
+const category = () => import('@/views/category/category.vue')
 const routes = [
   {
     path: '',

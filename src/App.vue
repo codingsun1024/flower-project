@@ -5,17 +5,15 @@
   </div>
 </template>
 <script>
-import mainTab from "@/components/tabbar/maintab.vue";
-
+import mainTab from "@/components/content/maintab.vue";
+import axios from "axios";
 export default {
   components: {
     mainTab,
   },
 };
 </script>
-<style lang="stylus">
-* {
-  margin: 0;
-  padding: 0;
-}
+<style >
+@import "./assets/css/base.css";
 </style>
+

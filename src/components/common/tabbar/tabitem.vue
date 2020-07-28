@@ -49,6 +49,6 @@ export default {
   width: 24px;
   height: 24px;
   vertical-align: middle;
-  margin-bottom: 3px;
+  margin:3px 3px;
 }
 </style>

@@ -25,8 +25,8 @@
 </template>
 
 <script>
-import tabBar from "./tabbar";
-import tabItem from "./tabitem";
+import tabBar from "@/components/common/tabbar/tabbar";
+import tabItem from  "@/components/common/tabbar/tabitem";
 export default {
   components: {
     tabBar,

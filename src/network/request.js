@@ -7,7 +7,9 @@ export function request(config, success, failure) {
         timeout: 5000
     })
 
-
+    instance.interceptors.response.use(res=>{
+        return res.data.data
+    })
     return instance(config)
 
 }
