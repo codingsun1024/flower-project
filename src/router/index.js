@@ -6,6 +6,7 @@ const home = () => import('@/views/home/home.vue')
 const profile = () => import('@/views//profile/profile.vue')
 const car = () => import('@/views/car/car.vue')
 const category = () => import('@/views/category/category.vue')
+const detail = () => import('@/views/detail/detail.vue')
 const routes = [
   {
     path: '',
@@ -26,6 +27,10 @@ const routes = [
   {
     path: '/category',
     component: category
+  },
+  {
+    path: '/detail/:iid',
+    component: detail
   }
 
 ]

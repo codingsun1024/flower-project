@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <main-tab></main-tab>
-    <router-view></router-view>
+    <main-tab class="footer"></main-tab>
+    <keep-alive exclude="detail">
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 <script>
@@ -15,5 +17,8 @@ export default {
 </script>
 <style >
 @import "./assets/css/base.css";
+.footer {
+  z-index: 9;
+}
 </style>
 

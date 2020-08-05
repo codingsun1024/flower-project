@@ -2,8 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+import { Col, Row } from 'vant'
+Vue.use(Col)
+Vue.use(Row)
 Vue.config.productionTip = false
+Vue.prototype.$bus = new Vue()
 new Vue({
   router,
   store,
